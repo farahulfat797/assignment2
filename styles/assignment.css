@@ -1,0 +1,54 @@
+.background{
+    background-color: black
+}
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .display-flex{
+    display: flex;
+  }
+  .text-white{
+    color: white;
+  }
+  .text-orange{
+    color: orangered;
+  }
+  .bg-light{
+    color: gray;
+  }
+  .bg-nav{
+    background-color: orangered;
+    border-bottom: 1px solid orangered;
+    padding: 8px;
+  }
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;}
+.navbar, banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
