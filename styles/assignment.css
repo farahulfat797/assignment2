@@ -25,12 +25,20 @@
   .text-orange{
     color: orangered;
   }
+  .text-grey{
+    color: gray;
+  }
   .bg-light{
     color: gray;
   }
   .bg-nav{
     background-color: orangered;
     border-bottom: 1px solid orangered;
+    padding: 8px;
+  }
+  .bg-nav-black{
+    background-color: black;
+    border-bottom: 1px solid black;
     padding: 8px;
   }
 .navbar{
@@ -51,4 +59,55 @@
 .navbar, banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+.section-title{
+    font-weight: 1000;
+    font-size: 4.00rem;
+}
+.features{
+    gap: 400px;
+}
+.icon{
+    width:32px; height:20px;
+}
+#experience-badge{
+    padding: 30px 28px;
+    font-size: 1.25rem;
+    font-weight: 100;
+    margin-left: 100px;
+   }
+#experience-year{
+    font-size: 4rem;
+    font: 700;
+}
+.text-center{
+  text-align: center;
+}
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.fact-card {
+  text-align: center;
+}
+
+.fact {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin: 0 auto; 
+  display: block;
+}
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; 
+  padding: 20px; 
+}
+.fact-card{
+  text-align: center;
 }
