@@ -172,4 +172,19 @@
   margin: 0;
   font-size: 1rem;
 }
+.section-footer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  align-items: stretch;
+}
+.footer-title{
+  margin-bottom: 50px;
+}
+  
 
+.footer-section{
+  list-style-type: none; 
+  padding: 0;
+  margin: 0; 
+}
