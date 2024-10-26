@@ -111,3 +111,17 @@
 .fact-card{
   text-align: center;
 }
+.background-grey{
+  background-color: gray;
+}
+.section {
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ 
+ padding: 20px;
+ gap: 40px; }
+.section-img {
+  width: 400px; 
+  height: 312px;
+ }
